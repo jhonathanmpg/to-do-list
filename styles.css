@@ -1,0 +1,116 @@
+h1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+body{
+    background-color: blue;
+}
+.container{
+    width: 100vw;
+    height: auto;
+}
+.input_div{
+    margin: 0 auto;
+}
+div{
+    text-align: center;
+    margin: 1% 1%;
+}
+.input{
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: none;
+    border-radius: 10px;
+    background-color: #606de2;
+    font-size: 25px;
+    outline: none;
+    color: white;
+}
+.input:hover{
+    background-color: #575555;
+    opacity: 0.9;
+}
+.fa-plus {
+    font-size: 3em;
+}
+.boton_agregar{
+    width: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    border:none;
+    background-color:rgb(255, 6, 46) ;
+    color: white;
+}
+.boton_agregar:hover{
+    width: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    border:none;
+    background-color:rgb(255, 6, 46) ;
+    color: white;
+    opacity: 0.8;
+}
+.item{
+    margin: 0 auto;
+    margin-bottom: 5px;
+    color: white;
+}
+.item_input{
+    width: 350px;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    background-color:#0e008f;
+    font-size: 25px;
+    outline: none;
+}
+.input::placeholder{
+    color: white;
+}
+.boton_editar{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #0e008f;
+    color: white;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+.boton_remover{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #0e008f;
+    color: white;
+    font-size: 1.4rem;
+}
+.boton_agregar:hover{
+    color:#000000;
+    background-color: none;
+    opacity: 0.9;
+}
+.boton_editar:hover, .boton_remover:hover{
+    color: #3f6aaa;
+    background-color: none;
+    opacity: 0.9;
+    border: none;
+    outline: none;
+}
