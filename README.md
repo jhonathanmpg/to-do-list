@@ -1,2 +1,2 @@
 # to-do-list
-To Do Listo for P5
+To Do List for P5
